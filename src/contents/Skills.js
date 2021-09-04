@@ -14,7 +14,7 @@ class Skills extends Component {
   
   render() {
     return (
-      <div className="container section">
+      <div className=" contact container section">
         <div className="row mt-5">
           <div className="text-center">
             <h1>Skills</h1>

@@ -38,7 +38,7 @@ export default class NavBar extends Component {
         };
 
         return (
-            <HashRouter>
+            <HashRouter className="nav">
                 <div className={classes.rootCont} >
                     <div className={classes.navBarCont}>
 
