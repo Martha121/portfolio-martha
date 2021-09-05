@@ -49,7 +49,7 @@ const Projects =()=> {
         key={index}
         className="box boxshadow"
       >
-        <Card.Img variant="top" src="holder.js/100px180" src={card.image} />
+        <Card.Img variant="top" src="holder.js/100px180" src={card.image} width="255px"/>
         <Card.Body>
           <Card.Title>{card.title}</Card.Title>
           <Card.Text>{card.text}</Card.Text>
@@ -61,7 +61,7 @@ const Projects =()=> {
     ); 
   };
     return (
-      <div className="condiv contact section">
+      <div className="condiv">
         <h1>Projects</h1>
         <div className="grid">
           {cardInfo.map(renderCard)}

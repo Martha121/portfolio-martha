@@ -1,10 +1,11 @@
+import './Contact.css'
 import React, { Component } from 'react';
 import Contactcard from '../Components/Contactcard';
 import Social from '../Components/Social';
 class Contact extends Component {
 render() {
 return (
-  <div className="condiv contact section">
+  <div className="contact_container">
     <h1 className="subtopic">Contact Me</h1>
     <br></br>
     <br></br>

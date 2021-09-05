@@ -1,3 +1,4 @@
+import './Skills.css';
 import React, { Component } from "react";
 import  {BsAppIndicator}  from "react-icons/bs";
 import { BsTools } from "react-icons/bs";
@@ -14,36 +15,30 @@ class Skills extends Component {
   
   render() {
     return (
-      <div className=" contact container section">
-        <div className="row mt-5">
-          <div className="text-center">
+      <div className="container skills_container">
+        <div classsName="skills_column">
             <h1>Skills</h1>
-          </div>
         </div>
-        <div className="row mt-5 ">
-          <div className=" col text-center  ">
+        <div className="row">
+          <div className="text-center skills_column">
             <BsCodeSlash size="50px" color="orange" />
             <h1 className="mt-5">Languages</h1>
-            <br />
             {this.state.Languages.map((value) => {
-              return <h6>{value}</h6>;
+              return <h4>{value}</h4>;
             })}
           </div>
-          <div className=" col text-center ">
+          <div className="text-center skills_column">
             <BsAppIndicator size="50px" color="orange" />
-
             <h1 className="mt-5">Applications</h1>
-            <br />
             {this.state.applications.map((value) => {
-              return <h6>{value}</h6>;
+              return <h4>{value}</h4>;
             })}
           </div>
-          <div className=" col text-center ">
+          <div className=" col text-center skills_column">
             <BsTools size="50px" color="orange" />
             <h1 className="mt-5">Tools</h1>
-            <br />
             {this.state.Tools.map((value) => {
-              return <h6>{value}</h6>;
+              return <h4>{value}</h4>;
             })}
           </div>
         </div>

@@ -1,14 +1,15 @@
+import './About.css'
 import React, { Component } from "react";
 import aboutPic from "../img/about1.jpg";
 class About extends Component {
   render() {
     return (
-      <div className="condiv contact section">
+      <div className="about_div">
         <img className="resize_fit_center" src={aboutPic} alt="Martha Gamez"className="photo"></img>
-        
+        <br /><br />
         <h1>I'm Martha Gamez</h1>
         
-        <br></br>
+        <br /><br />
         <p>
           I am an Electrical Engineer and a Full Stack Web Developer. 
           I started my journey in the world of web development by Pursuing 
