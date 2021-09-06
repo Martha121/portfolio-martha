@@ -1,12 +1,13 @@
 .home_rootCont{
     position:relative;
     display: flex;
-    top: 80px;
+    top:80px;
     background-size:cover;
     height:100vh;
+    width: 100vw;
     background-color: white;
     justify-content: center;
-    width: 100%;
+    
 }
 
 .home_overlay{
@@ -17,7 +18,7 @@
 }
 
 .home_content{
-    top:80px;
+    
     position:relative;
     font-size:80px;
     color:white;

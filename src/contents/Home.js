@@ -10,15 +10,12 @@ class Home extends Component {
         style={{
           backgroundImage: `url(${profilepic})`,
           backgroundRepeat: "no-repeat",
-          zIndex: 5,
         }}
-        id="home"
+        
       >
         <div class="home_overlay"></div>
         <div className="home_content">
           I am Martha Gamez
-          <br />
-          <br /> 
           <Social />
         </div>
       </div>

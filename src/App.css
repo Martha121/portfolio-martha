@@ -82,9 +82,8 @@ nav.imageWrapper{
 .social
 {
   position: absolute;
-  margin-top: 20px;
   display: flex;
-  bottom: 400px;
+  bottom: 100px;
 }
 .social i
 {
@@ -263,13 +262,5 @@ h1,h2,h3,h4,p{
     max-height:100%;
     vertical-align: middle;
 }
-.contact
-{
- display: flex;
- justify-content: center;
- flex-direction: column;
- align-items: center;
- padding-left: 0px;
-  
-}
+
 }
