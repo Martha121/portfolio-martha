@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/portfolio_martha/static/css/main.d51d0cf6.chunk.css",
+    "main.js": "/portfolio_martha/static/js/main.85f246ee.chunk.js",
+    "main.js.map": "/portfolio_martha/static/js/main.85f246ee.chunk.js.map",
+    "runtime-main.js": "/portfolio_martha/static/js/runtime-main.d77f0365.js",
+    "runtime-main.js.map": "/portfolio_martha/static/js/runtime-main.d77f0365.js.map",
+    "static/js/2.16349bb8.chunk.js": "/portfolio_martha/static/js/2.16349bb8.chunk.js",
+    "static/js/2.16349bb8.chunk.js.map": "/portfolio_martha/static/js/2.16349bb8.chunk.js.map",
+    "static/js/3.39e3799c.chunk.js": "/portfolio_martha/static/js/3.39e3799c.chunk.js",
+    "static/js/3.39e3799c.chunk.js.map": "/portfolio_martha/static/js/3.39e3799c.chunk.js.map",
+    "index.html": "/portfolio_martha/index.html",
+    "static/css/main.d51d0cf6.chunk.css.map": "/portfolio_martha/static/css/main.d51d0cf6.chunk.css.map",
+    "static/js/2.16349bb8.chunk.js.LICENSE.txt": "/portfolio_martha/static/js/2.16349bb8.chunk.js.LICENSE.txt",
+    "static/media/about1.ffacff02.jpg": "/portfolio_martha/static/media/about1.ffacff02.jpg",
+    "static/media/chooseandchill.ac183bed.png": "/portfolio_martha/static/media/chooseandchill.ac183bed.png",
+    "static/media/confeastador.75660505.PNG": "/portfolio_martha/static/media/confeastador.75660505.PNG",
+    "static/media/karoleal1.c55da0c7.png": "/portfolio_martha/static/media/karoleal1.c55da0c7.png",
+    "static/media/labmanager.5dc1b0de.png": "/portfolio_martha/static/media/labmanager.5dc1b0de.png",
+    "static/media/mostachos1.0271f50b.png": "/portfolio_martha/static/media/mostachos1.0271f50b.png",
+    "static/media/portada4.c097c572.jpg": "/portfolio_martha/static/media/portada4.c097c572.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d77f0365.js",
+    "static/js/2.16349bb8.chunk.js",
+    "static/css/main.d51d0cf6.chunk.css",
+    "static/js/main.85f246ee.chunk.js"
+  ]
+}
