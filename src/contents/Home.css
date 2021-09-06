@@ -1,28 +1,35 @@
-.rootCont{
+.home_rootCont{
+    position:relative;
     display: flex;
-
     top: 80px;
-    background-size:cover; 
-    height: 100vh;
+    background-size:cover;
+    height:100vh;
     background-color: white;
-    padding: 100px;
-    z-index: 0;
+    justify-content: center;
+    width: 100%;
 }
 
-.overlay{
-
+.home_overlay{
+    position:absolute;
     top:0px;right:0;left:0;bottom:0;
     background-color:rgba(0,0,0,0.5);
-    z-index:1;
+    z-index:0;
 }
 
-.content{
-
-    z-index:2;
+.home_content{
+    top:80px;
+    position:relative;
     font-size:80px;
     color:white;
+    display:flex;
+    justify-content: center;
 }
 
-.photo{
-    height: 200px;
+@media all and (max-width: 650px) {
+.home_content {
+    font-size: 40px;
+  }
 }
+
+
+

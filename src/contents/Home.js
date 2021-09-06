@@ -5,17 +5,22 @@ import Social from "../Components/Social";
 class Home extends Component {
   render() {
     return (
-      <div className="rootCont"
+      <div
+        className="home_rootCont parent home_content"
         style={{
           backgroundImage: `url(${profilepic})`,
           backgroundRepeat: "no-repeat",
-          zIndex: 5
-        }} 
+          zIndex: 5,
+        }}
         id="home"
       >
-        <div class="overlay"></div>
-        <div class="content hometittle">I am Martha Gamez</div>
-        <Social />
+        <div class="home_overlay"></div>
+        <div className="home_content">
+          I am Martha Gamez
+          <br />
+          <br /> 
+          <Social />
+        </div>
       </div>
     );
   }

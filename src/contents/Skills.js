@@ -15,7 +15,7 @@ class Skills extends Component {
   
   render() {
     return (
-      <div className="container skills_container">
+      <div className="container skills_container contact">
         <div classsName="skills_column">
             <h1>Skills</h1>
         </div>
