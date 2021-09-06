@@ -15,8 +15,8 @@ class Skills extends Component {
   
   render() {
     return (
-      <div className="container skills_container contact">
-        <div classsName="skills_column">
+      <div className=" cont skills_container ">
+        <div classsName="skills_column tittle">
             <h1>Skills</h1>
         </div>
         <div className="row">
@@ -34,7 +34,7 @@ class Skills extends Component {
               return <h4>{value}</h4>;
             })}
           </div>
-          <div className=" col text-center skills_column">
+          <div className="text-center skills_column skills_mcolumn">
             <BsTools size="50px" color="orange" />
             <h1 className="mt-5">Tools</h1>
             {this.state.Tools.map((value) => {
