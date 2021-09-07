@@ -84,13 +84,15 @@ nav.imageWrapper{
   position: absolute;
   display: flex;
   bottom: 100px;
+  justify-content: space-around;
 }
+
 .social i
 {
   padding-right: 30px;
   font-size: 25px;
-  color:orange;
-}
+  color:brown;
+} 
 .social i:hover
 {
   color:black;
@@ -205,7 +207,7 @@ h1,h2,h3,h4,p{
     width: 100vw;
     display: flex;
     justify-content: space-around;
-    bottom: 30px;
+    bottom: 60px;
   }
   .social i
   {

@@ -6,7 +6,7 @@ class Social extends Component {
   render() {
     return (
       <div className="social">
-        <a
+        <a 
           href="https://github.com/Martha121"
           target="_blank"
           rel="noopener noreferrer"
