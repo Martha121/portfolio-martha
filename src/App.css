@@ -168,7 +168,7 @@ nav ul li
 /* mouse over link */
 /*a:hover {
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 /* selected link */
@@ -225,6 +225,7 @@ h1,h2,h3,h4,p{
   height:100px
   
 }
+
 
 
 
