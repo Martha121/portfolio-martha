@@ -15,9 +15,10 @@ class Home extends Component {
         <div class="home_overlay"></div>
         <div className="home_content">
           <br />
-          <br />
-          I am Martha Gamez
-          <Social />
+          <br />I am Martha Gamez
+          <div className="social ">
+            <Social />
+          </div>
         </div>
       </div>
     );

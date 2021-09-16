@@ -33,13 +33,13 @@ const Projects =()=> {
     {
       image: foto4,
       title: "Mostachos",
-      text: "User-friendly webpage for a pizza restaurant where users check menu,price and promotions.",
+      text: "User-friendly webpage for a pizza restaurant where users check menu,price and promotions.Built with WordPress template , JavaScript and HTML.",
       link: "https://mostachospizza.com/",
     },
     {
       image: foto5,
       title: "karoleal Photography",
-      text: "Photography Website to help display pictures and stay in contact with clients.",
+      text: "Photography Website created to help display pictures and stay in contact with clients.Built with WordPress template , JavaScript and HTML.",
       link: "https://karoleal.com/",
     },
   ];
@@ -48,7 +48,7 @@ const Projects =()=> {
     return (
       <Card
         border="dark"
-        style={{ width: "16rem" }}
+        style={{ width: "16rem", height:"300px"}}
         key={index}
         className="box boxshadow"
       >
@@ -61,14 +61,15 @@ const Projects =()=> {
         <Card.Body>
           <Card.Title>{card.title}</Card.Title>
           <Card.Text className="description">{card.text}</Card.Text>
-          <Button className="button" href={card.link} variant="outline-warning">
+          <div className="cardbutton">
+            <Button className="button" href={card.link} variant="outline-warning">
             Go to page
           </Button>
-          <br />
-          <br />
-          <Button className="button" href={card.url} variant="outline-warning">
+          
+          <Button className="button button1" href={card.url} variant="outline-warning">
             Repo URL
           </Button>
+         </div> 
         </Card.Body>
           <br />
       </Card>

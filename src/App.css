@@ -86,7 +86,9 @@ nav.imageWrapper{
   bottom: 100px;
   justify-content: space-around;
 }
-
+.icons{
+  padding-left: 50px;
+}
 .social i
 {
   padding-right: 30px;
@@ -199,12 +201,13 @@ h1,h2,h3,h4,p{
   background-color:black; /* Orange */
   border: none;
   color:white;
-  padding: 10px 30px;
+  padding: 10px 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 12px;
-  border-radius: 2px;
+  border-radius: 5px;
+   
 }
 
 .button:hover {
@@ -212,8 +215,15 @@ h1,h2,h3,h4,p{
   color: white;
 }
 
+.cardbutton{
+  display:flex;
+  justify-content: space-around;
+}
+
 .description{
   font-size: 12px;
+  height:100px
+  
 }
 
 
