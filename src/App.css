@@ -195,7 +195,26 @@ h1,h2,h3,h4,p{
   margin:30px;
 }
 */
+.button {
+  background-color:black; /* Orange */
+  border: none;
+  color:white;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  border-radius: 2px;
+}
 
+.button:hover {
+  background-color: orange;
+  color: white;
+}
+
+.description{
+  font-size: 12px;
+}
 
 
 

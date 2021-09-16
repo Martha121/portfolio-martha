@@ -12,31 +12,34 @@ const Projects =()=> {
     {
       image: foto,
       title: "Choose and Chill",
-      text: "Page for a pizza restaurant",
+      text: "This application helps customers plan an evening with recipes ideas and movie suggestions.Built with JavaScript, HTML,CSS and Materialize languages.",
       link: "https://martha121.github.io/choose-and-chill/",
+      url: "https://github.com/Martha121/choose-and-chill",
     },
     {
       image: foto2,
       title: "Lab Manager ",
-      text: "Page for a Photographer",
+      text: "Application to help organize results data quickly and efficiently for a clinical molecular laboratory.Built with: Handlebars, CSS,JavaScript, amCharts, Bootstrap, Font awesome, bcrypt, mysql2, Express and Session.",
       link: "http://hidden-sea-70156.herokuapp.com",
+      url: "https://github.com/mambru82/lab-manager",
     },
     {
       image: foto3,
       title: "  Confeastador",
-      text: "Page for entertain on weekends",
+      text: "conFEASTador is a web application for users to make and manage restaurant reservations.Built with:React, Node.js,JavaScript, CSS, JWT, Express, MongoDB. ",
       link: "https://confeastador.herokuapp.com/",
+      url: "https://github.com/NickolausCarter/confeastador",
     },
     {
       image: foto4,
       title: "Mostachos",
-      text: "Page created to help the functions in a lab",
+      text: "User-friendly webpage for a pizza restaurant where users check menu,price and promotions.",
       link: "https://mostachospizza.com/",
     },
     {
       image: foto5,
       title: "karoleal Photography",
-      text: "Page to help a person make reservations ",
+      text: "Photography Website to help display pictures and stay in contact with clients.",
       link: "https://karoleal.com/",
     },
   ];
@@ -49,14 +52,25 @@ const Projects =()=> {
         key={index}
         className="box boxshadow"
       >
-        <Card.Img variant="top" src="holder.js/100px180" src={card.image} width="255px"/>
+        <Card.Img
+          variant="top"
+          src="holder.js/100px180"
+          src={card.image}
+          width="255px"
+        />
         <Card.Body>
           <Card.Title>{card.title}</Card.Title>
-          <Card.Text>{card.text}</Card.Text>
-          <Button href={card.link} variant="outline-warning">
+          <Card.Text className="description">{card.text}</Card.Text>
+          <Button className="button" href={card.link} variant="outline-warning">
             Go to page
           </Button>
+          <br />
+          <br />
+          <Button className="button" href={card.url} variant="outline-warning">
+            Repo URL
+          </Button>
         </Card.Body>
+          <br />
       </Card>
     ); 
   };

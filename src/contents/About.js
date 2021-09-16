@@ -19,7 +19,7 @@ class About extends Component {
           my journey in the world of web development by pursuing my Full Stack
           Web Development Certificate at The University of Texas in Austin. I
           like creating Interactive UI components for better UX and share those
-          desgins and code to the world through Github. I am skilled in JavaScript, 
+          desgins and code to the world through GitHub. I am skilled in JavaScript, 
           React.js, Express, responsive web design, and
           databases such as MySQL and MongoDB.
         </p>
