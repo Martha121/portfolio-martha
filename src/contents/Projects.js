@@ -12,28 +12,28 @@ const Projects =()=> {
     {
       image: foto,
       title: "Choose and Chill",
-      text: "This application helps customers plan an evening with recipes ideas and movie suggestions.Built with JavaScript, HTML,CSS and Materialize languages.",
+      text: "This application helps customers plan an evening with recipes ideas and movie suggestions. Built with JavaScript, HTML, CSS and Materialize languages.",
       link: "https://martha121.github.io/choose-and-chill/",
       url: "https://github.com/Martha121/choose-and-chill",
     },
     {
       image: foto2,
       title: "Lab Manager ",
-      text: "Application to help organize results data quickly and efficiently for a clinical molecular laboratory.Built with: Handlebars, CSS,JavaScript, amCharts, Bootstrap, Font awesome, bcrypt, mysql2, Express and Session.",
+      text: "Application to help organize results data quickly and efficiently for a clinical molecular laboratory. Built with: Handlebars, CSS, JavaScript, amCharts, Bootstrap, Font awesome, bcrypt, mysql2, Express and Session.",
       link: "http://hidden-sea-70156.herokuapp.com",
       url: "https://github.com/mambru82/lab-manager",
     },
     {
       image: foto3,
       title: "  Confeastador",
-      text: "conFEASTador is a web application for users to make and manage restaurant reservations.Built with:React, Node.js,JavaScript, CSS, JWT, Express, MongoDB. ",
+      text: "conFEASTador is a web application for users to make and manage restaurant reservations. Built with:React, Node.js, JavaScript, CSS, JWT, Express, MongoDB. ",
       link: "https://confeastador.herokuapp.com/",
       url: "https://github.com/NickolausCarter/confeastador",
     },
     {
       image: foto4,
       title: "Mostachos",
-      text: "User-friendly webpage for a pizza restaurant where users check menu,price and promotions.Built with WordPress template , JavaScript and HTML.",
+      text: "User-friendly webpage for a pizza restaurant where users check menu,price and promotions. Built with WordPress template , JavaScript and HTML.",
       link: "https://mostachospizza.com/",
     },
     {

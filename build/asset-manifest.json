@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio-martha/static/css/main.5d6112ad.chunk.css",
-    "main.js": "/portfolio-martha/static/js/main.11cba20b.chunk.js",
-    "main.js.map": "/portfolio-martha/static/js/main.11cba20b.chunk.js.map",
-    "runtime-main.js": "/portfolio-martha/static/js/runtime-main.02fc1a72.js",
-    "runtime-main.js.map": "/portfolio-martha/static/js/runtime-main.02fc1a72.js.map",
-    "static/js/2.16349bb8.chunk.js": "/portfolio-martha/static/js/2.16349bb8.chunk.js",
-    "static/js/2.16349bb8.chunk.js.map": "/portfolio-martha/static/js/2.16349bb8.chunk.js.map",
-    "static/js/3.39e3799c.chunk.js": "/portfolio-martha/static/js/3.39e3799c.chunk.js",
-    "static/js/3.39e3799c.chunk.js.map": "/portfolio-martha/static/js/3.39e3799c.chunk.js.map",
+    "main.css": "/portfolio-martha/static/css/main.63aaf709.chunk.css",
+    "main.js": "/portfolio-martha/static/js/main.1b18cab6.chunk.js",
+    "main.js.map": "/portfolio-martha/static/js/main.1b18cab6.chunk.js.map",
+    "runtime-main.js": "/portfolio-martha/static/js/runtime-main.1d2700de.js",
+    "runtime-main.js.map": "/portfolio-martha/static/js/runtime-main.1d2700de.js.map",
+    "static/js/2.30ac87e7.chunk.js": "/portfolio-martha/static/js/2.30ac87e7.chunk.js",
+    "static/js/2.30ac87e7.chunk.js.map": "/portfolio-martha/static/js/2.30ac87e7.chunk.js.map",
+    "static/js/3.beb146f1.chunk.js": "/portfolio-martha/static/js/3.beb146f1.chunk.js",
+    "static/js/3.beb146f1.chunk.js.map": "/portfolio-martha/static/js/3.beb146f1.chunk.js.map",
     "index.html": "/portfolio-martha/index.html",
-    "static/css/main.5d6112ad.chunk.css.map": "/portfolio-martha/static/css/main.5d6112ad.chunk.css.map",
-    "static/js/2.16349bb8.chunk.js.LICENSE.txt": "/portfolio-martha/static/js/2.16349bb8.chunk.js.LICENSE.txt",
+    "static/css/main.63aaf709.chunk.css.map": "/portfolio-martha/static/css/main.63aaf709.chunk.css.map",
+    "static/js/2.30ac87e7.chunk.js.LICENSE.txt": "/portfolio-martha/static/js/2.30ac87e7.chunk.js.LICENSE.txt",
+    "static/media/MarthaResume2021.cf2b2f9e.pdf": "/portfolio-martha/static/media/MarthaResume2021.cf2b2f9e.pdf",
     "static/media/about1.ffacff02.jpg": "/portfolio-martha/static/media/about1.ffacff02.jpg",
     "static/media/chooseandchill.ac183bed.png": "/portfolio-martha/static/media/chooseandchill.ac183bed.png",
     "static/media/confeastador.75660505.PNG": "/portfolio-martha/static/media/confeastador.75660505.PNG",
@@ -21,9 +22,9 @@
     "static/media/portada4.c097c572.jpg": "/portfolio-martha/static/media/portada4.c097c572.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.02fc1a72.js",
-    "static/js/2.16349bb8.chunk.js",
-    "static/css/main.5d6112ad.chunk.css",
-    "static/js/main.11cba20b.chunk.js"
+    "static/js/runtime-main.1d2700de.js",
+    "static/js/2.30ac87e7.chunk.js",
+    "static/css/main.63aaf709.chunk.css",
+    "static/js/main.1b18cab6.chunk.js"
   ]
 }
