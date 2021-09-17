@@ -14,7 +14,7 @@ class About extends Component {
         <br />
         <h1>I'm Martha Gamez</h1>
         <br />
-        <p>
+        <p className="aboutext">
           I am an Electrical Engineer and a Full Stack Web Developer. I started
           my journey in the world of web development by pursuing my Full Stack
           Web Development Certificate at The University of Texas in Austin. I
