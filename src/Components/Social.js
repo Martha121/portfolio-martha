@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { AiFillGithub } from "react-icons/ai";
 import { AiFillLinkedin } from "react-icons/ai";
 import { ImProfile } from "react-icons/im";
-import Resume from "../img/MarthaResume2021.pdf";
+import Resume from "../img/MarthaResume.pdf";
 class Social extends Component {
   render() {
     return (
