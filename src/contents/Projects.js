@@ -7,7 +7,7 @@ import foto2 from "../img/labmanager.png";
 import foto3 from "../img/confeastador.PNG";
 import foto4 from "../img/mostachos1.png";
 import foto5 from "../img/karoleal1.png";
-import foto6 from "../img/guidetothrive.png";
+import foto6 from "../img/guidetothrive.jpg";
 const Projects =()=> {
   const cardInfo = [
     {
