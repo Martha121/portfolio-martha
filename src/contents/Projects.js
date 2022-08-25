@@ -7,6 +7,7 @@ import foto2 from "../img/labmanager.png";
 import foto3 from "../img/confeastador.PNG";
 import foto4 from "../img/mostachos1.png";
 import foto5 from "../img/karoleal1.png";
+import foto6 from "../img/guidetothrive.png";
 const Projects =()=> {
   const cardInfo = [
     {
@@ -41,6 +42,12 @@ const Projects =()=> {
       title: "karoleal Photography",
       text: "Photography Website created to help display pictures and stay in contact with clients.Built with WordPress template , JavaScript and HTML.",
       link: "https://karoleal.com/",
+    },
+    {
+      image: foto6,
+      title: "Guide To Thrive",
+      text: "Website created for an Eduactional Consultant bussines. Built with WordPress template , JavaScript and HTML.",
+      link: "https://guidetothrive.com/",
     },
   ];
 
